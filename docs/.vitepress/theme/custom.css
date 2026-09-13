@@ -1,0 +1,66 @@
+:root {
+  --vp-c-brand-1: #587a18;
+  --vp-c-brand-2: #6b8f22;
+  --vp-c-brand-3: #7da32b;
+  --vp-c-brand-soft: rgba(125, 163, 43, 0.16);
+  --vp-c-bg: #fbfcf8;
+  --vp-c-bg-alt: #f1f3ed;
+  --vp-c-bg-soft: #f5f7f1;
+  --vp-c-text-1: #18201d;
+  --vp-button-brand-text: #101418;
+  --vp-button-brand-bg: #c8ef55;
+  --vp-button-brand-hover-bg: #d6f579;
+  --vp-button-brand-active-bg: #b6dc43;
+}
+
+.dark {
+  --vp-c-brand-1: #c8ef55;
+  --vp-c-brand-2: #b6dc43;
+  --vp-c-brand-3: #9fc336;
+  --vp-c-brand-soft: rgba(200, 239, 85, 0.14);
+  --vp-c-bg: #101418;
+  --vp-c-bg-alt: #171c20;
+  --vp-c-bg-soft: #1d2327;
+  --vp-c-text-1: #f4f7ed;
+  --vp-c-text-2: #c5cbc2;
+  --vp-c-text-3: #969f97;
+  --vp-c-divider: #343d3a;
+  --vp-c-border: #46504c;
+  --vp-code-color: #d8f58a;
+}
+
+.VPButton,
+.VPFeature {
+  border-radius: 8px !important;
+}
+
+.VPHero .name,
+.VPHero .text {
+  letter-spacing: 0;
+}
+
+.VPHero .image-bg {
+  background: rgba(200, 239, 85, 0.24);
+  filter: blur(34px);
+}
+
+.VPHero .image-src {
+  width: min(240px, 56vw);
+  height: min(240px, 56vw);
+}
+
+.VPDoc h2 {
+  border-top: 0;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+  }
+}
